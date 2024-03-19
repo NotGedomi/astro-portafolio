@@ -1,0 +1,78 @@
+---
+import Section from "@/components/Section.astro";
+import { work } from "@cv";
+---
+
+<Section title="Experiencia">
+      <ul>
+        {work.map(({ name, startDate, endDate, position, summary }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                    <h3>{name}</h3>
+                    <h1>{startDate} - {endDate}</h1>
+                </header>
+                <div>
+                  <h4>{position}</h4>
+                </div>
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        })}
+      </ul>
+</Section>
+
+<style>
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    article h3 {
+      font-family: monospace;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #000;
+    }
+
+    article h1 {
+      font-family: monospace;
+      font-weight: 700;
+      font-size: 0.75rem;
+      color: #ffffff;
+      padding: 8px;
+      background-color: #222;
+      border-radius: 3px;
+      transition: 0.5s;
+
+      &&:hover{
+      cursor: pointer;
+      opacity: 90%;
+    }
+    }
+
+    article h4 {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #222;
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: auto;
+      justify-content: space-between;
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-family: monospace;
+    }
+
+</style>

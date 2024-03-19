@@ -1,0 +1,54 @@
+---
+import Section from "@/components/Section.astro";
+import { skills } from "@cv";
+import { Icon } from 'astro-icon/components';
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        return (
+            <div title={name}><Icon name={name} class="skill-icon"/><h4>{name}</h4></div>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  
+  h4 {
+    font-family: monospace;
+    margin-right: 5px;
+  }
+
+  div {
+    width: fit-content;
+    padding: 3px 5px;
+    border: 1px solid #f8f8f8;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 0.4%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+
+      &&:hover {
+        background-color: #f8f8f8;
+        opacity: 90%;
+        cursor: pointer
+      }
+  }
+
+
+  .skill-icon {
+    margin-inline: 3px;
+    width: 16px;
+    height: 100%;
+    color: black !important
+  }
+</style>

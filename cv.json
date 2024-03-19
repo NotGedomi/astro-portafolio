@@ -1,0 +1,186 @@
+{
+    "basics": {
+        "name": "Julio Mau",
+        "label": "Software & Web Developer | JavaScript | TypeScript | Astro | React.js | Node.js | Git | MySQL ",
+        "image": "/public/pg.png",
+        "email": "xiadouofficial@gmail.com",
+        "phone": "+51 921519575",
+        "discord": "https://discord.gg/Pa59VA3xzH",
+        "url": "https://gedomi.com",
+        "summary": "Egresado de Ingeniería de Software con IA, pasión por la innovación y constante búsqueda de nuevos conocimientos en tecnologías / metodologías emergentes en el sector.",
+        "location": {
+            "maps": "https://maps.app.goo.gl/yZve3qqYE6VoWc1L6",
+            "postalCode": "20280",
+            "city": "Lima",
+            "countryCode": "PE",
+            "region": "Perú"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "juliomau",
+                "url": "https://www.linkedin.com/in/juliomau"
+            },
+            {
+                "network": "GitHub",
+                "username": "NotGedomi",
+                "url": "https://github.com/NotGedomi"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Pay-me",
+            "position": "Practicante de Implementaciones",
+            "url": "https://company.com",
+            "startDate": "2022",
+            "endDate": "2023",
+            "summary": "Soporte continuo e implementación de la solución multiplataforma Pay-me en comercios electrónicos (e-commerce).",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Software Solution",
+            "position": "Freelance",
+            "url": "https://company.com",
+            "startDate": "2023",
+            "endDate": "2024",
+            "summary": "Desarrollo de un asistente personalizado con Inteligencia Artificial para Mype's. ",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "SENATI",
+            "area": "Ingeniería de Software con Inteligencia Artificial.",
+            "startDate": "2020",
+            "endDate": "2023"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Astro"
+        },
+        {
+            "name": "TypeScript"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Node"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "GitHub"
+        },
+        {
+            "name": "MySQL"
+        },
+        {
+            "name": "Jest"
+        },
+        {
+            "name": "OpenAI"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Nativo"
+        }
+    ],
+    "projects": [
+        {
+            "name": "AI Langchain Chatbot",
+            "description": "Software potenciado con Inteligencia Artificial diseñado para ofrecer respuestas en base a una información específica brindada mediante el ingreso de documentos o enlaces web.",
+            "keywords":[
+                {
+                "tecnologies": "OpenAI"
+                },
+                {
+                "tecnologies": "Langchain"
+                },
+                {
+                "tecnologies": "Axios"
+                },
+                {
+                "tecnologies": "JavaScript"
+                },
+                {
+                "tecnologies": "Node.js"
+                },
+                {
+                "tecnologies": "Express"
+                },
+                {
+                "tecnologies": "Faiss"
+                }
+            ],
+            "url": "https://github.com/NotGedomi/Chatbot-AI-Langchain.git",
+            "isActive": true
+        },
+        {
+            "name": "GifAPP",
+            "description": "App creada con Vite + React y Custom Hooks, para realizar busquedas de Gifs consumiendo la API de Giphy.",
+            "keywords":[
+                {
+                "tecnologies": "Giphy API"
+                },
+                {
+                "tecnologies": "React.js"
+                },
+                {
+                    "tecnologies": "Vite"
+                }
+            ],
+            "url": "https://github.com/NotGedomi/react-GifAPP.git",
+            "isActive": true
+        },
+        {
+            "name": "Chatbot-GPT-3.5",
+            "description": "Asistente personalizado hecho con PHP + OpenAI API para responder preguntas relacionadas con la pollería Roky's utilizando la API de OpenAI.",
+            "keywords":[
+                {
+                "tecnologies": "OpenAI"
+                },
+                {
+                "tecnologies": "PHP"
+                },
+                {
+                "tecnologies": "HTML"
+                },
+                {
+                "tecnologies": "CSS"
+                },
+                {
+                "tecnologies": "JavaScript"
+                }
+            ],
+            "url": "https://github.com/NotGedomi/Chatbot-AI-Langchain.git",
+            "isActive": true
+        }
+    ]
+}
